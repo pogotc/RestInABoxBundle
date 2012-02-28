@@ -1,0 +1,8 @@
+parameters:
+    pogotc_rest_in_a_box.rest_objects
+#    pogotc_rest_in_a_box.example.class: Pogotc\RestInABoxBundle\Example
+
+services:
+#    pogotc_rest_in_a_box.example:
+#        class: %pogotc_rest_in_a_box.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
