@@ -1,0 +1,34 @@
+PogotcRestInABoxBundle_create:
+    pattern:  /{entity}/create
+    defaults: { _controller: PogotcRestInABoxBundle:API:create }
+    requirements:
+        _method: POST
+        _format: json
+
+PogotcRestInABoxBundle_all:
+    pattern:  /{entity}
+    defaults: { _controller: PogotcRestInABoxBundle:API:all }
+    requirements:
+        _method: GET
+        _format: json
+
+PogotcRestInABoxBundle_view:
+    pattern:  /{entity}/{id}
+    defaults: { _controller: PogotcRestInABoxBundle:API:view }
+    requirements:
+        _method: GET
+        _format: json
+
+PogotcRestInABoxBundle_update:
+    pattern:  /{entity}/{id}
+    defaults: { _controller: PogotcRestInABoxBundle:API:update }
+    requirements:
+        _method: PUT
+        _format: json
+        
+PogotcRestInABoxBundle_delete:
+    pattern:  /{entity}/{id}
+    defaults: { _controller: PogotcRestInABoxBundle:API:delete }
+    requirements:
+        _method: DELETE
+        _format: json

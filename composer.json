@@ -1,0 +1,19 @@
+{
+    "name": "Pogotc/RestInABoxBundle",
+    "version": "0.1",
+    "description": "Helper bundle to make it easier to get started building a REST API",
+    "keywords": ["rest"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steven Ellis",
+            "email": "pogotc@gmail.com",
+        }
+    ],
+    "require": {
+        "php": ">=5.2.4",
+        "symfony/framework-bundle": "2.*"
+    },
+    "target-dir": "Pogotc/RestInABoxBundle"
+}
